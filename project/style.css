@@ -1,14 +1,14 @@
 .video-container {
   position: fixed;
-  top: auto;
-  left: 0;
-  width: 75vw;
-  height: 75vh;
+  top: 50vh;
+  left: 0%;
+  width: 50vw;
+  height: 50vh;
   background-image: url("beans.jpg");
-  background-size: cover;
-  background-position: calc(21);
+  background-size: 50vmax;
+  background-position: calc(50);
   background-repeat: no-repeat;
-  z-index: -1;
+  
 }
 .overlay {
   position:absolute;
@@ -38,6 +38,7 @@
     margin-right: auto;
     padding: 100px;
     max-width: 500px;
+    margin-top: -30px;
    
   }
   img {
@@ -51,7 +52,7 @@
     border-color: brown;
   }
   .bottom-line {
-    margin-top: 25px;
+    margin-top: 10px;
   }
   
   h1, h2 {
@@ -61,13 +62,13 @@
   .item p {
     display: inline-block;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 18px;
   }
   
   .flavor, .dessert {
     text-align: left;
-    width: 75%;
+    width: 70%;
   }
   
   .price {
@@ -82,7 +83,7 @@
   }
   
   .address {
-    margin-bottom: 5px;
+    margin-bottom: -40px;
   }
   
   a {
@@ -98,5 +99,5 @@
   }
   
   a:active {
-    color: brown;
+    color: rgb(240, 15, 15);
   }

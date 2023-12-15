@@ -1,29 +1,17 @@
-.video-container {
-  position: fixed;
-  top: 50vh;
-  left: 0%;
-  width: 50vw;
-  height: 50vh;
-  background-image: url("beans.jpg");
-  background-size: 50vmax;
-  background-position: calc(50);
-  background-repeat: no-repeat;
-  
-}
 .overlay {
-  position:absolute;
-  top: 15vh;
-  left: 80vh;
-}
+  position: absolute;
+  top: 20vh;
+  left: 70vh;
   
+}
   h1 {
     font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-top: -50px;
+    margin-bottom: 0px;
   }
   
   h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .established {
     font-style: italic;
@@ -32,12 +20,14 @@
     text-align: center;
   }
   .menu {
-    width: 120vb;
+    width: 180vh;
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
-    padding: 100px;
-    max-width: 500px;
+    padding-left: 100px;
+    padding-top: 20%;
+    padding-right: 100px;
+    max-width: 400px;
     margin-top: -30px;
    
   }
@@ -63,7 +53,7 @@
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 15px;
   }
   
   .flavor, .dessert {
